@@ -8,7 +8,7 @@ Contents:
 * `GA_ANN_run.R`: run a k-fold cross-validation for an ensemble of Extra-Trees.
 
 
-- Humphrey, G.B., S. Galelli, H.R. Maier, A. Castelletti, G.C. Dandy and M.S. Gibbs (*submitted*), An evaluation framework for input variable selection algorithms for environmental data-driven models, Environmental Modelling & Software.
-- Goldberg, D.E., 1989. Genetic Algorithms in Search, Optimization and Machine Learning. Addison-Wesley Pub. Co., Reading, MA.
+Humphrey, G.B., S. Galelli, H.R. Maier, A. Castelletti, G.C. Dandy and M.S. Gibbs (*submitted*), An evaluation framework for input variable selection algorithms for environmental data-driven models, Environmental Modelling & Software.
+Goldberg, D.E., 1989. Genetic Algorithms in Search, Optimization and Machine Learning. Addison-Wesley Pub. Co., Reading, MA.
 
 Copyright 2014 Greer Humphrey.
