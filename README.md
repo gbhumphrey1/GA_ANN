@@ -8,7 +8,7 @@ Humphrey, G.B., S. Galelli, H.R. Maier, A. Castelletti, G.C. Dandy and M.S. Gibb
 Contents:
 * `GA_Search.R`: implements a Genetic Algorithm (GA) search to the maximum of a user-provided objective (fitness) function.
 * `GA_ANN_run.R`: run the GA_ANN IVS algorithm to select the optimal inputs for a given set of input data.
-* `dat.`:
+* `inp_dat.csv`: an example input data file. Column 1 contains an array of data labels or IDs (e.g. dates on which data were recorded); columns 2 to P+1 contain the P candidate input variables; and column P+2 contains the response variable, while the rows are data points. The first row contains the variable names.
 
 To run the GA_ANN algorithm, the following command should be used:
 
