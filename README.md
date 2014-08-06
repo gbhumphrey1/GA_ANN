@@ -9,6 +9,11 @@ Contents:
 * `GA_Search.R`: implements a Genetic Algorithm (GA) search to the maximum of a user-provided objective (fitness) function.
 * `GA_ANN_run.R`: run a k-fold cross-validation for an ensemble of Extra-Trees.
 
+To run the GA_ANN algorithm, the following command should be used:
+
+`R --args [`*filename*`] [`*data_name*`] < GA_ANN_run.R`
+
+where *filename* is the name of the name of the input data file (including path) and *data_name* is the name of a set of data (e.g. 'Bank', 'AR', 'Friedman') which will be used for 
 
 
 Goldberg, D.E., 1989. Genetic Algorithms in Search, Optimization and Machine Learning. Addison-Wesley Pub. Co., Reading, MA.
