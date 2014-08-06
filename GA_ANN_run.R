@@ -14,7 +14,7 @@ dat.dir <- args[2]   #  dataset - e.g. 'Bank'
 
 # Read in data
 # ----
-out.dir <- paste("~/IVS/Part_2/Results/MLP_GA/", dat.dir, "/", sep = "")
+out.dir <- paste("~/", dat.dir, "/", sep = "")
 
 
 #-------------------------------------------------------------------------------
