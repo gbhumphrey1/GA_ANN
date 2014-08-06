@@ -7,7 +7,8 @@ Humphrey, G.B., S. Galelli, H.R. Maier, A. Castelletti, G.C. Dandy and M.S. Gibb
 
 Contents:
 * `GA_Search.R`: implements a Genetic Algorithm (GA) search to the maximum of a user-provided objective (fitness) function.
-* `GA_ANN_run.R`: run a k-fold cross-validation for an ensemble of Extra-Trees.
+* `GA_ANN_run.R`: run the GA_ANN IVS algorithm to select the optimal inputs for a given set of input data.
+* `dat.`:
 
 To run the GA_ANN algorithm, the following command should be used:
 
