@@ -11,9 +11,9 @@ Contents:
 
 To run the GA_ANN algorithm, the following command should be used:
 
-`R --args [`*filename*`] [`*data_name*`] < GA_ANN_run.R`
+`R --args [`*filename*`] [`*out_dir*`] < GA_ANN_run.R`
 
-where *filename* is the name of the name of the input data file (including path) and *data_name* is the name of a set of data (e.g. 'Bank', 'AR', 'Friedman') which will be used for 
+where *filename* is the name of the name of the input data file (including path) and *out_dir* is the name of the output directory (i.e. the directory to which results will be written. This name should *NOT* include the whole path).  
 
 
 Goldberg, D.E., 1989. Genetic Algorithms in Search, Optimization and Machine Learning. Addison-Wesley Pub. Co., Reading, MA.
