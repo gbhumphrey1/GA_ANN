@@ -1,9 +1,11 @@
 GA_ANN
 ======
 
-R scripts used to implement the GA_ANN input variable selection (IVS) algorithm described in Galelli et. al. (2014). This wrapper IVS algorithm is a combination of a genetic algorithm (GA) search procedure with an artificial neural network (ANN) model. In this implementation, a simple 1-hidden node multilayer perceptron was utilised. The model training process is performed by means of a simulated annealing algorithm, which is used each time a new combination of inputs is evaluated. The GA adopted is a relatively simple variant outlined in Goldberg (1989). Further details of this implementation of the GA_ANN algorithm can be found in:
+R scripts used to implement the GA_ANN input variable selection (IVS) algorithm as part of the the IVS4EM project described in Galelli et. al. (2014). This wrapper IVS algorithm is a combination of a genetic algorithm (GA) search procedure with an artificial neural network (ANN) model. In this implementation, a simple 1-hidden node multilayer perceptron was utilised. The model training process is performed by means of a simulated annealing algorithm, which is used each time a new combination of inputs is evaluated. The GA adopted is a relatively simple variant outlined in Goldberg (1989). Further details of this implementation of the GA_ANN algorithm can be found in:
 
 Galelli S., Humphrey G.B., Maier H.R., Castelletti A., Dandy G.C. and Gibbs M.S. (2014)  An evaluation framework for input variable selection algorithms for environmental data-driven models, *Environmental Modelling and Software*, 62, 33-51, DOI: 10.1016/j.envsoft.2014.08.015. ([Link to Paper](http://www.sciencedirect.com/science/article/pii/S1364815214002394))
+
+The purpose of the IVS4EM project is to support a comprehensive framework for the testing and evaluation of IVS algorithms, through the sharing of algorithms (open source code), datasets, and evalution criteria. ([Link to IVS4EM Website](http://ivs4em.deib.polimi.it/))
 
 Contents:
 * `GA_Search.R`: implements a Genetic Algorithm (GA) search to the maximum of a user-provided objective (fitness) function.
